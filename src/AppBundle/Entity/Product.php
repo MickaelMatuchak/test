@@ -28,11 +28,6 @@ class Product
     private $price;
 
     /**
-     * @ORM\Column(type="text")
-     */
-    private $description;
-
-    /**
      * @return mixed
      */
     public function getId()
@@ -78,21 +73,5 @@ class Product
     public function setPrice($price)
     {
         $this->price = $price;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    /**
-     * @param mixed $description
-     */
-    public function setDescription($description)
-    {
-        $this->description = $description;
     }
 }
