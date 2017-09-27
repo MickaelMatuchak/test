@@ -10,17 +10,6 @@ class Product
     private $price;
 
     /**
-     * Product constructor.
-     * @param $name
-     * @param $price
-     */
-    public function __construct($name, $price)
-    {
-        $this->name = $name;
-        $this->price = $price;
-    }
-
-    /**
      * @return mixed
      */
     public function getName()
