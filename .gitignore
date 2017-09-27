@@ -16,3 +16,5 @@
 /vendor/
 /web/bundles/
 /.DS_STORE
+/.idea
+/composer.phar
