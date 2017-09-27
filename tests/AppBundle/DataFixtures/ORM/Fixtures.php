@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\DataFixtures\ORM;
+namespace Tests\AppBundle\DataFixtures\ORM;
 
 use AppBundle\Entity\Product;
 use Doctrine\Bundle\FixturesBundle\Fixture;
